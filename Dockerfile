@@ -1,4 +1,4 @@
-FROM java:openjdk-11-el7
+FROM quay.io/quarkus/ubi-quarkus-native-binary-s2i:1.0
 
 ENV JAVA_APP_JAR ola.jar
 ENV AB_ENABLED off
