@@ -1,4 +1,4 @@
-FROM openshift/java:11
+FROM java:openjdk-11-el7
 
 ENV JAVA_APP_JAR ola.jar
 ENV AB_ENABLED off
